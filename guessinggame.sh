@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File : guessinggame.sh
 
-z=$(ls | wc -l ) 
+z=$(ls -l | wc -l ) 
 echo "How Many Files Are in The Current Directory ??? "
 echo "Please Enter Your Guess ::" 
 read numfiles
